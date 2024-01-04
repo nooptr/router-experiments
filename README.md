@@ -13,3 +13,21 @@ specifies, generate the plots. These plots might differ from those of the paper
 as they're using current data.
 
 The code for our comparison with Mosek is in `comparison.jl`.
+
+## Install julia
+
+```
+curl -fsSL https://install.julialang.org | sh
+```
+
+## Install packages
+
+```
+julia --project=. -e 'using Pkg; Pkg.instantiate()'
+```
+
+## Run fetchuniv3.jl
+
+```
+julia fetchuniv3.jl
+```
