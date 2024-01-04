@@ -3,5 +3,4 @@ Manifest.toml
 scaling.jl
 .vscode/
 figs/
-data/
 iterate.dat
